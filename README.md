@@ -1,10 +1,10 @@
 
-## Deploy zookeeper statefulset, service and headless service
+## Deploy zookeeper statefulset, zookeeper service and a headless service
 
 	kubectl apply -f zookeeper.yaml 
 
 
-## Deploy kafka statefulset and headless service
+## Deploy kafka statefulset and a headless service
 
 	kubectl apply -f kafka.yaml 
 
