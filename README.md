@@ -1,9 +1,10 @@
 This tutorial expalins how to Deploy Kafka and zookeeper on Kubernetes. 
 
 ## Prerequisite: 
-Setup a multi-node kubernetes cluster up and running with a functioning kubectl.
-If you dont have a kubernetes cluster, set it up by following the instructions in the link below: 
-https://github.com/ashishrpandey/kubernetes-training/blob/master/00installation.md
+- Setup a multi-node kubernetes cluster up and running with a functioning kubectl.
+- If you dont have a kubernetes cluster, set it up by following the instructions in the link below: 
+
+- https://github.com/ashishrpandey/kubernetes-training/blob/master/00installation.md
 
 ## lets start
 Login to the master node.
