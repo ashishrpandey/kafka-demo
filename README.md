@@ -6,7 +6,7 @@ This tutorial expalins how to Deploy Kafka and zookeeper on Kubernetes.
 
 - https://github.com/ashishrpandey/kubernetes-training/blob/master/00installation.md
 
-## lets start
+## Lets start
 Login to the master node.
 Clone this repository ..
 
