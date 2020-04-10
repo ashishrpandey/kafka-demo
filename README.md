@@ -1,4 +1,4 @@
-This tutorial expalins how to Deploy Kafka and zookeeper on Kubernetes. 
+This tutorial explains how to Deploy Kafka and zookeeper on Kubernetes. 
 
 ## Prerequisite: 
 - Setup a multi-node kubernetes cluster up and running with a functioning kubectl.
@@ -37,7 +37,7 @@ Run a pod, move into the pod and run kafka-topics.sh script to create the topic
 	kubectl run -ti --image=gcr.io/google_containers/kubernetes-kafka:1.0-10.2.1 produce --restart=Never --rm -- kafka-console-producer.sh --topic test --broker-list kafka-0.kafka-hs.default.svc.cluster.local:9093,kafka-1.kafka-hs.default.svc.cluster.local:9093,kafka-2.kafka-hs.default.svc.cluster.local:9093 done;
 
 ### Note:
-In this tutorial we are using non-persistent volume. This volume gets deleted with the deleteion of the pod. So you should always run kafka/zookeeper statefulSets with the persistentVolumeClaimTemplate (See the commented code in yaml files) with appropriate persistent volumes.
+In this tutorial we are using non-persistent volume. This volume gets deleted with the deletion of the pod. So you should always run kafka/zookeeper statefulSets with the persistentVolumeClaimTemplate (See the commented code in yaml files) with appropriate persistent volumes.
 
 ### Reference: 
 https://kow3ns.github.io/kubernetes-kafka/manifests/
